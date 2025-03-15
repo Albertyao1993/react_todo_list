@@ -159,10 +159,7 @@ The application can be deployed to various platforms such as:
 - Dark/light theme toggle
 - Mobile app using React Native
 
-## License
-
-MIT
 
 ## Author
 
-Your Name
+Guoqiang Yao
