@@ -40,20 +40,49 @@ A full-stack Todo List application built with React, TypeScript, and Express.js.
 
 ```
 react_todo_list/
-├── client/               # Frontend React application
-│   ├── src/
-│   │   ├── components/   # Reusable UI components
-│   │   ├── pages/        # Page components
-│   │   ├── services/     # API services
-│   │   └── ...
-│   └── ...
-├── server/               # Backend Express application
-│   ├── src/
-│   │   ├── controllers/  # Route controllers
-│   │   ├── models/       # Database models
-│   │   └── ...
-│   └── ...
-└── ...
+├── .gitignore                  # Git ignore file
+├── README.md                   # Project documentation
+│
+├── client/                     # Frontend React application
+│   ├── .gitignore              # Frontend git ignore
+│   ├── index.html              # HTML entry point
+│   ├── package.json            # Frontend dependencies and scripts
+│   ├── package-lock.json       # Frontend dependency lock file
+│   ├── tsconfig.json           # TypeScript configuration
+│   ├── tsconfig.app.json       # TypeScript app configuration
+│   ├── tsconfig.node.json      # TypeScript Node configuration
+│   ├── vite.config.ts          # Vite configuration
+│   ├── public/                 # Public assets
+│   │   └── vite.svg            # Vite logo
+│   └── src/                    # Source code
+│       ├── App.css             # Main application styles
+│       ├── App.tsx             # Main application component
+│       ├── index.css           # Global styles
+│       ├── main.tsx            # Application entry point
+│       ├── vite-env.d.ts       # Vite environment types
+│       ├── assets/             # Static assets
+│       │   └── react.svg       # React logo
+│       ├── components/         # Reusable UI components
+│       │   └── Navbar.tsx      # Navigation bar component
+│       ├── pages/              # Page components
+│       │   ├── About.tsx       # About page
+│       │   ├── Home.tsx        # Home page
+│       │   ├── NotFound.tsx    # 404 page
+│       │   └── Todos.tsx       # Todo list page
+│       └── services/           # API services
+│           └── api.ts          # Axios API configuration
+│
+└── server/                     # Backend Express application
+    ├── .env                    # Environment variables
+    ├── package.json            # Backend dependencies and scripts
+    ├── package-lock.json       # Backend dependency lock file
+    ├── tsconfig.json           # TypeScript configuration
+    └── src/                    # Source code
+        ├── server.ts           # Express server setup
+        ├── controllers/        # Route controllers
+        │   └── userControllers.ts # Task controller
+        └── models/             # Database models
+            └── Tasks.ts        # Task model
 ```
 
 ## Installation and Setup
