@@ -1,0 +1,62 @@
+# Dependencies
+node_modules
+*/node_modules
+
+# Build output
+dist
+*/dist
+build
+*/build
+
+# Environment variables
+.env*
+*/.env*
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Editors and IDEs
+.idea
+.vscode
+*.swp
+*.swo
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Operating systems
+.DS_Store
+Thumbs.db
+
+# Cache
+.cache
+.parcel-cache
+.npm
+.eslintcache
+.stylelintcache
+
+# Test coverage
+coverage
+.nyc_output
+
+# Vite specific
+*/.vite
+
+# TypeScript specific
+*.tsbuildinfo
+
+# Local history
+.history
+.ionide
+
+# Temporary files
+*.tmp
+*.temp 
